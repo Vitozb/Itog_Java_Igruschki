@@ -15,9 +15,7 @@ public class Main {
 
         String confirm = scanner.nextLine();
         if (confirm.equals("y")) {
-        //    FillDataOfToys();
-
-                   int tempPercent;
+       int tempPercent;
        int tempIdToy = 1;
        int remainder = 100;
        Toy[] toys = new Toy[10];
